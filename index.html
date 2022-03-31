@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>CodePen - LightGallery demo</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css'>
+  
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <h1>LightGallery</h1>
+<hr>
+<h2>DEMO</h2>
+<div id="lightgallery">
+ <a href="https://i.imgur.com/xQ94mYj.jpg">
+<img src="https://i.imgur.com/xQ94mYj.jpg" width="500" height="300" /></a>
+<a href="https://i.imgur.com/lji0z7q.jpg"><img src="https://i.imgur.com/lji0z7q.jpg" width="500" height="300"/></a>
+</div>
+<p><a href="https://sachinchoolur.github.io/lightGallery/docs/">LightGallery</a></p>
+<p><h2>How to use?</h2></p>
+<pre><b>CSS</b>
+https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css
+
+<b>JS</b>
+
+必須最先調用jQuery
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js
+
+https://cdn.jsdelivr.net/npm/<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f5999c929d819294999990878cb5c4dbc3dbc4c7">[email&#160;protected]</a>/dist/js/lightgallery.min.js
+
+滑鼠滾輪切換圖片
+
+https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js
+
+插件(縮略圖+全屏)
+
+https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js
+
+https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/1.1.0/lg-fullscreen.min.js
+</pre>
+<b>JS</b><br>
+<textarea style="width:400px;height:50px">
+$(document).ready(function() {
+  $("#lightgallery").lightGallery(); 
+});
+</textarea><br>
+<b>HTML</b><br>
+<textarea style="width:500px;height:100px">
+  <div id="lightgallery">
+
+　<a href="https://i.imgur.com/xQ94mYj.jpg">
+　　<img src="https://i.imgur.com/xQ94mYj.jpg" width="500" height="300" />
+　</a>
+
+　<a href="https://i.imgur.com/lji0z7q.jpg">
+　　<img src="https://i.imgur.com/lji0z7q.jpg" width="500" height="300"/>
+　</a>
+
+</div>
+</textarea>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/dist/js/lightgallery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/1.1.0/lg-fullscreen.min.js'></script>
+      <script id="rendered-js" >
+$(document).ready(function () {
+  $("#lightgallery").lightGallery();
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
+ 
